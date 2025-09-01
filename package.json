@@ -1,0 +1,22 @@
+{
+  "name": "anypage-reader",
+  "version": "2.20.1",
+  "description": "A customized Chrome extension that reads aloud webpage content with enhanced UI. Fork of Read Aloud with modern design improvements.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "package": "zip -r build/package.zip _locales css img js sound *.html manifest.json background.js -x \\*.map || true"
+  },
+  "keywords": [
+    "text-to-speech",
+    "chrome-extension",
+    "anypage-reader",
+    "voice-reader",
+    "accessibility"
+  ],
+  "originalAuthor": "Hai Phan <hai.phan@gmail.com>",
+  "originalRepository": "https://github.com/ken107/read-aloud",
+  "license": "MIT",
+  "note": "This is a customized fork of the original Read Aloud extension with enhanced UI/UX and rebranding to anypage reader."
+}
